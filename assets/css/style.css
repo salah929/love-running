@@ -183,6 +183,17 @@ hr {
     color: #fafafa;
 }
 
+/* Gellery page */
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+}
+
+/*
 footer {
     #social-networks {
         text-align: center;
@@ -191,6 +202,16 @@ footer {
         justify-content: space-evenly;
         list-style-type: none;
     }
+}
+*/
+
+/* Footer */
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
 
 #social-networks i {
